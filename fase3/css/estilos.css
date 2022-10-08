@@ -1,33 +1,47 @@
 .encabezado {
-    background-color: aqua;
+    color: white;
+    background-color: black;
+    text-align: center;
     padding: 30px;
 }
 
 .navegacion {
-    background-color: blue;
+    color: white;
+    background-color: #150050;
     padding: 30px;
 }
 
 .contenedor {
-    background-color: blueviolet;
+    background-color: #3F0071;
     padding: 30px;
     display: grid;
     grid-template-columns:1fr 1fr 1fr 1fr ;
 }
 
 .principal {
-    background-color: blanchedalmond;
+    color: white;
+    background-color: #610094;
     padding: 30px;
     grid-column: 2/5;
 }
 
 .lateral {
-    background-color: blue;
+    background-color: #700B97;
     padding: 30px;
     grid-column: 1/2;
 }
 
 .pie {
-    background-color: black;
+    color: white;
+    background-color: #2A0944;
     padding: 30px;
+}
+
+.img{
+    width: 450px;
+    height: 450px;
+}
+.img2{
+    width: 700px;
+    height: 300px;
 }
