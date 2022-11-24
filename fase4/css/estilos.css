@@ -1,0 +1,63 @@
+.encabezado {
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+}
+
+.navegacion {
+    color: white;
+    background-color: #150050;
+    padding: 30px;
+}
+
+.contenedor {
+    background-color: #3F0071;
+    padding: 30px;
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+}
+
+.principal {
+    color: white;
+    background-color: #610094;
+    padding: 30px;
+    grid-column: 2/5;
+}
+
+.lateral {
+    background-color: #700B97;
+    padding: 30px;
+    grid-column: 1/2;
+}
+
+.pie {
+    color: white;
+    background-color: #2A0944;
+    padding: 30px;
+}
+
+.img{
+    width: 450px;
+    height: 450px;
+    margin: auto;
+    display: block;    
+}
+.img2{
+    width: 700px;
+    height: 300px;
+    margin: auto;
+    display: block;
+}
+.img3{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+.img4{
+    width: 700px;
+    height: 450px;
+    margin: auto;
+    display: block;
+}
